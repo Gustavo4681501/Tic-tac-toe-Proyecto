@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="src/estilos/estilosIndex.css">
+</head>
+<body >
+    <header>
+        <img src="src/imagenes/Tic-Tac-Toe-4-7-2023.png" alt="https://www.textstudio.com/" class="bounce">
+    </header>
+    <!-- <p class="text-bg-danger" id="jugadorActual">Jugador <span id="iconoActual"></span></p> -->
+    <div id="celdaPadre" class="container">
+        <div class="celda"></div>
+        <div class="celda"></div>
+        <div class="celda"></div>
+        <div class="celda"></div>
+        <div class="celda"></div>
+        <div class="celda"></div>
+        <div class="celda"></div>
+        <div class="celda"></div>
+        <div class="celda"></div>
+
+        <p id="contadorJ1" class="textoContador" >Victorias Jugador 1 <span id="cuentaVictoria">0</span>  <span id="iconoActual">⭐</span></p>
+
+        <div id="divBtn" class="container" onclick="celdasReset()"><a id="btnReiniciar"><img src="src/imagenes/Reiniciar-5-7-2023.png"></a></div>
+
+        <p id="contadorJ2" class="textoContador">Victorias Jugador 2 <span id="cuentaDerrota">0</span></p>
+    </div>
+    
+
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+<script src="src/logica/TicTacToe2Player.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" > </script>
+</html>
