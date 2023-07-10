@@ -4,9 +4,8 @@ var celdas = document.querySelectorAll(".celda");
 var cuentaVictoria = document.getElementById("cuentaVictoria");
 var cuentaDerrota = document.getElementById("cuentaDerrota");
 var iconoActual = document.getElementById("iconoActual");
-console.log(celdas);
-let simbolo = "⭐"
-let simboloO = "🍄"
+let simbolo = "!"
+let simboloO = "2"
 let jugadorActual = simbolo;
 let contadorV = 0;
 let contadorD = 0;
@@ -198,7 +197,3 @@ for (let i = 0; i < 9; i++) {
 //         return mejorPuntaje;
 //     }
 // }
-
-
-
-

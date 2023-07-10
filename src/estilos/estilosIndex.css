@@ -5,14 +5,14 @@
 
 @font-face {
     font-family: "FuenteCeldas";
-    src: url(../Fuentes/mario.bros.\(drunkenbatz\).[fontvir.us].ttf);
+    src: url(../Fuentes/Markbats8-Regular.ttf);
     font-size: 40px;
 }
 
 header {
     display: flex;
     justify-content: center;
-    
+
 }
 
 header img {
@@ -26,20 +26,20 @@ header img {
     padding: 20%
 }
 
-#jugadorActual{
+#jugadorActual {
     margin-top: 0%;
     margin-left: 30%;
     margin-bottom: -9%;
     margin-right: 65%;
 }
 
-#iconoActual{
+#iconoActual {
     margin-left: 39%;
     font-size: 46px;
     position: absolute;
 }
 
-audio{
+audio {
     margin-top: 35%;
 }
 
@@ -55,46 +55,57 @@ audio{
     position: absolute;
 }
 
-#imgMario{
+#imgMario {
     width: 20%;
     min-height: 20%;
     cursor: url("../imagenes/planta-carnivora\ \(1\).png"), pointer;
 }
 
-#imgMyL{
+#imgMyL {
     margin-left: 10%;
     width: 30%;
     min-height: 30%;
     cursor: url("../imagenes/planta-carnivora\ \(1\).png"), pointer;
 }
 
-#modoJuego{
+#modoJuego {
     width: 50%;
     height: 50%;
 }
 
-.textoContador{
+.textoContador {
     font-family: "FuenteContador";
     font-size: 20px;
 }
 
-#contadorJ1{
+.celda{
+    font-family: "FuenteCeldas";
+    font-size: 20px;
+}
+
+#iconoActual{
+    font-family: "FuenteCeldas";
+}
+
+
+
+#contadorJ1 {
     color: red;
 }
 
-#contadorJ2{
+#contadorJ2 {
     color: green;
 }
 
 
-.textoContador{
+.textoContador {
     display: flex;
 }
 
 
 
 
-#btnReiniciar img:hover{
+#btnReiniciar img:hover {
     -webkit-animation-name: rubberBand;
     animation-name: rubberBand;
     -webkit-animation-duration: 1s;
@@ -102,65 +113,79 @@ audio{
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     cursor: url("../imagenes/planta-carnivora\ \(1\).png"), pointer;
-    }
-    @-webkit-keyframes rubberBand {
+}
+
+@-webkit-keyframes rubberBand {
     0% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
     }
+
     30% {
-    -webkit-transform: scale3d(1.25, 0.75, 1);
-    transform: scale3d(1.25, 0.75, 1);
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
     }
+
     40% {
-    -webkit-transform: scale3d(0.75, 1.25, 1);
-    transform: scale3d(0.75, 1.25, 1);
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
     }
+
     50% {
-    -webkit-transform: scale3d(1.15, 0.85, 1);
-    transform: scale3d(1.15, 0.85, 1);
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
     }
+
     65% {
-    -webkit-transform: scale3d(.95, 1.05, 1);
-    transform: scale3d(.95, 1.05, 1);
+        -webkit-transform: scale3d(.95, 1.05, 1);
+        transform: scale3d(.95, 1.05, 1);
     }
+
     75% {
-    -webkit-transform: scale3d(1.05, .95, 1);
-    transform: scale3d(1.05, .95, 1);
+        -webkit-transform: scale3d(1.05, .95, 1);
+        transform: scale3d(1.05, .95, 1);
     }
+
     100% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
     }
-    }
-    @keyframes rubberBand {
+}
+
+@keyframes rubberBand {
     0% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
     }
+
     30% {
-    -webkit-transform: scale3d(1.25, 0.75, 1);
-    transform: scale3d(1.25, 0.75, 1);
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
     }
+
     40% {
-    -webkit-transform: scale3d(0.75, 1.25, 1);
-    transform: scale3d(0.75, 1.25, 1);
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
     }
+
     50% {
-    -webkit-transform: scale3d(1.15, 0.85, 1);
-    transform: scale3d(1.15, 0.85, 1);
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
     }
+
     65% {
-    -webkit-transform: scale3d(.95, 1.05, 1);
-    transform: scale3d(.95, 1.05, 1);
+        -webkit-transform: scale3d(.95, 1.05, 1);
+        transform: scale3d(.95, 1.05, 1);
     }
+
     75% {
-    -webkit-transform: scale3d(1.05, .95, 1);
-    transform: scale3d(1.05, .95, 1);
+        -webkit-transform: scale3d(1.05, .95, 1);
+        transform: scale3d(1.05, .95, 1);
     }
+
     100% {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
     }
 }
 
@@ -197,6 +222,16 @@ body {
     cursor: url("../imagenes/planta-carnivora\ \(1\).png"), pointer;
     font-size: 42px;
     font-weight: bold;
+    color: red;
+}
+
+.celda:hover {
+    box-shadow:
+        inset 0 -3em 3em rgba(255, 217, 0, 0.453),
+        0 0 0 2px rgb(255, 217, 0, 0.453),
+        0.3em 0.3em 1em rgba(255, 217, 0, 0.453);
+    transition: 1s;
+
 }
 
 
